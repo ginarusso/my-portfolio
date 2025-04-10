@@ -55,7 +55,8 @@ body {
 }
 
 section {
-    padding: 4em 2em;
+    /* padding: 2em 2em .3em 2em;  */
+    padding: 2em 2em;
 }
 
 .arrows {
@@ -387,6 +388,7 @@ header {
 
 .section__title--services {
     color: var(--clr-accent);
+    margin-top: 0;
     /* position: relative; */
 }
 
@@ -496,7 +498,7 @@ header {
 }
 
 .my-video-resume h2 {
-    padding-bottom: 1.5em;
+    padding-bottom: .5em;
 }
 
 .video {
@@ -572,6 +574,15 @@ header {
     margin-top: 0.5em;
     font-weight: var(--fw-bold);
     text-align: center;
+    margin-bottom: 0;
+}
+
+.portfolio-description {
+    /* font-weight:  var(--fw-bold); */
+    font-size: 1rem;
+    margin-top: 0;
+    line-height: 1.2rem;
+    color: black;
 }
 
 /* .portfolio__img:hover {
